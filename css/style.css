@@ -53,16 +53,16 @@ button { font: inherit; overflow: visible; margin: 0; padding: 0; cursor: pointe
  0% { opacity: 0; }
  to { opacity: 1; }
 }
-@font-face { font-family: Catamaran; font-weight: 400; font-style: normal; src: local( "Catamaran" ), local( "Catamaran-Regular" ), url( https://fonts.gstatic.com/s/catamaran/v1/iVYgK2bOLvZcSxr0ITOecpBw1xU1rKptJj_0jans920.woff2 ) format( "woff2" ); }
-@font-face { font-family: Catamaran; font-weight: 600; font-style: normal; src: local( "Catamaran SemiBold" ), local( "Catamaran-SemiBold" ), url( https://fonts.gstatic.com/s/catamaran/v1/a9PlHHnuBWiGGk0TwuFKThampu5_7CjHW5spxoeN3Vs.woff2 ) format( "woff2" ); }
-@font-face { font-family: Catamaran; font-weight: 800; font-style: normal; src: local( "Catamaran ExtraBold" ), local( "Catamaran-ExtraBold" ), url( https://fonts.gstatic.com/s/catamaran/v1/6VjB_uSfn3DZ93IQv58CmBampu5_7CjHW5spxoeN3Vs.woff2 ) format( "woff2" ); }
-@font-face { font-family: Selima; font-weight: 400; font-style: normal; src: local( "Selima" ), url( fonts/selima-webfont.woff2 ) format( "woff2" ), url( fonts/selima-webfont.woff ) format( "woff" ); }
+@font-face { font-family: Catamaran; font-weight: 400; font-style: normal; src: url( https://fonts.gstatic.com/s/catamaran/v1/iVYgK2bOLvZcSxr0ITOecpBw1xU1rKptJj_0jans920.woff2 ) format( "woff2" ); }
+@font-face { font-family: Catamaran; font-weight: 600; font-style: normal; src: url( https://fonts.gstatic.com/s/catamaran/v1/a9PlHHnuBWiGGk0TwuFKThampu5_7CjHW5spxoeN3Vs.woff2 ) format( "woff2" ); }
+@font-face { font-family: Catamaran; font-weight: 800; font-style: normal; src: url( https://fonts.gstatic.com/s/catamaran/v1/6VjB_uSfn3DZ93IQv58CmBampu5_7CjHW5spxoeN3Vs.woff2 ) format( "woff2" ); }
+@font-face { font-family: Selima; font-weight: 400; font-style: normal; src: url( ../fonts/selima-webfont.eot ); src: url( ../fonts/selima-webfont.eot?#iefix ) format( "embedded-opentype" ), url( ../fonts/selima-webfont.woff2 ) format( "woff2" ), url( ../fonts/selima-webfont.woff ) format( "woff" ), url( ../fonts/selima-webfont.ttf ) format( "truetype" ), url( ../fonts/selima-webfont.svg#selimaregular ) format( "svg" ); }
 body { background-color: #f4f4f4; min-width: 960px; }
 body, button, input, select, textarea { font-family: Catamaran, Helvetica Neue, Helvetica, Arial, sans-serif; font-size: 17px; font-weight: 400; line-height: 1.5; color: #6f6f6f; }
 li, p { line-height: 1.75; margin: 1em 0; }
 a { -webkit-transition: all .15s linear; transition: all .15s linear; color: #f17c8c; outline: none; }
 a:hover { color: #ec4e64; }
-.page-title { font-family: Selima, cursive; font-weight: 400; line-height: 1; -webkit-animation-duration: .325s; animation-duration: .325s; -webkit-animation-timing-function: ease-in-out; animation-timing-function: ease-in-out; -webkit-animation-iteration-count: 1; animation-iteration-count: 1; -webkit-animation-fill-mode: both; animation-fill-mode: both; -webkit-animation-name: d; animation-name: d; font-size: 200px; }
+.page-title { font-family: Selima, cursive; font-weight: 400; line-height: 1; font-size: 200px; }
 .closing-intro, .page-intro { font-size: 20px; font-weight: 600; margin-bottom: 30px; }
 .page-cta { text-align: center; }
 .button { font-size: 13px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; -webkit-transition: all .15s linear; transition: all .15s linear; display: inline-block; padding: 1em 4em; letter-spacing: 2px; border: 2px solid #f17c8c; background-color: #f17c8c; }
@@ -134,7 +134,7 @@ a:hover { color: #ec4e64; }
 .main-panel { -webkit-transition: padding .15s linear; transition: padding .15s linear; padding: 120px 0; }
 .main-panel.with-paper { margin-top: -135px; }
 .main-panel.with-closing-panel-below { padding-bottom: 60px; }
-.paper { box-shadow: 0 2px 5px 0 rgba( 0, 0, 0, .1 ); -webkit-animation-duration: .325s; animation-duration: .325s; -webkit-animation-timing-function: ease-in-out; animation-timing-function: ease-in-out; -webkit-animation-iteration-count: 1; animation-iteration-count: 1; -webkit-animation-fill-mode: both; animation-fill-mode: both; -webkit-animation-name: c; animation-name: c; max-width: 1020px; margin: 0 auto; border-radius: 4px; background-color: #fff; display: flex; flex-flow: row wrap; }
+.paper { box-shadow: 0 2px 5px 0 rgba( 0, 0, 0, .1 ); max-width: 1020px; margin: 0 auto; border-radius: 4px; background-color: #fff; display: flex; flex-flow: row wrap; }
 .paper-box { position: relative; padding: 60px; text-align: center; }
 .paper-box.with-footer { padding-bottom: 90px; }
 .paper-box.with-photo-grid { padding: 0; }
