@@ -86,7 +86,7 @@ a:hover { color: #ec4e64; }
 .main-nav { display: inline-block; float: right; margin-right: 15px; }
 .main-nav-menu-item { font-size: 13px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; display: inline-block; margin: 0 0 0 30px; vertical-align: top; }
 .main-nav-menu-item.is-active a { font-weight: 800; opacity: 1; }
-.main-nav-menu-item a { opacity: .5; color: #f7f7f7; }
+.main-nav-menu-item a { opacity: .65; color: #f7f7f7; }
 .main-nav-menu-item a:hover { opacity: 1; color: #fff; }
 .about-page .main-nav-menu-item a { opacity: .8; }
 .about-page .main-nav-menu-item.is-active a,
