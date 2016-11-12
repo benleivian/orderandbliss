@@ -141,7 +141,8 @@
       <script src="https://use.fontawesome.com/4cbe038091.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.0.0/turbolinks.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.slim.min.js"></script>
-      <script type="text/javascript">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.1/jquery.validate.min.js"></script>
+  <script type="text/javascript">
     $(document).ready(function() {
 
       var firstInput = $('input:text:visible:first');
@@ -165,6 +166,8 @@
       if (serviceParamExists) {
         checkServiceBox();
       }
+
+      $('.webform form').validate();
 
     });
   </script>

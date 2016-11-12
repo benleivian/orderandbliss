@@ -113,6 +113,7 @@ a:hover { color: #ec4e64; }
 .webform textarea { min-height: 8rem; }
 .webform-field-row { margin-bottom: 30px; }
 .webform-field-row:last-child { margin-bottom: 0; }
+.webform-field-row label.error { display: block; margin-top: 10px; font-size: 14px; }
 .webform-field-label { font-size: 20px; font-weight: 800; margin-bottom: .5em; display: block; }
 .webform-field-label:hover { cursor: pointer; }
 .webform-checkbox-group { padding-top: 15px; padding-bottom: 30px; border-bottom: 2px solid #e7e7e7; display: flex; flex-flow: row wrap; }
