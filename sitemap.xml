@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>http://orderandbliss.com/</loc>
+    <loc>https://orderandbliss.com/</loc>
     <lastmod>2016-11-10T08:05:51+00:00</lastmod>
   </url>
   <url>
-    <loc>http://orderandbliss.com/portfolio/</loc>
+    <loc>https://orderandbliss.com/portfolio/</loc>
     <lastmod>2016-11-10T08:05:51+00:00</lastmod>
   </url>
   <url>
-    <loc>http://orderandbliss.com/services/</loc>
+    <loc>https://orderandbliss.com/services/</loc>
     <lastmod>2016-11-10T08:05:51+00:00</lastmod>
   </url>
   <url>
-    <loc>http://orderandbliss.com/about/</loc>
+    <loc>https://orderandbliss.com/about/</loc>
     <lastmod>2016-11-10T08:05:50+00:00</lastmod>
   </url>
   <url>
-    <loc>http://orderandbliss.com/contact/</loc>
+    <loc>https://orderandbliss.com/contact/</loc>
     <lastmod>2016-11-10T08:05:50+00:00</lastmod>
   </url>
 </urlset>

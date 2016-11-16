@@ -21,6 +21,39 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="shortcut icon" type="image/x-icon" sizes="16x16 32x32" href="/images/default/favicon.ico">
   <link rel="apple-touch-icon-precomposed" href="/images/default/favicon-152.png">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.0.0/turbolinks.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.1/jquery.validate.min.js"></script>
+    <script src="https://use.fontawesome.com/4cbe038091.js"></script>
+      <script type="text/javascript">
+    $(document).ready(function() {
+
+      var firstInput = $('input:text:visible:first');
+      var serviceType = document.URL.split('#')[1];
+      var browser = $('html, body');
+
+      var serviceParamExists = function() {
+        return serviceType !== null;
+      }
+
+      var checkServiceBox = function() {
+        var serviceCheckbox = $('[data-service="' + String(serviceType) + '"]');
+        if (serviceCheckbox.length) {
+          serviceCheckbox.prop('checked', true);
+          browser.scrollTop(450);
+        }
+      }
+
+      firstInput.focus();
+
+      if (serviceParamExists) {
+        checkServiceBox();
+      }
+
+      $('.webform form').validate();
+
+    });
+  </script>
 </head>
 <body>
   <script>
@@ -65,7 +98,7 @@
       <div class="paper">
         <div class="paper-box is-full is-padded">
           <div class="webform">
-            <form method="POST" action="http://formspree.io/amanda@leivian.com">
+            <form method="POST" action="https://formspree.io/amanda@leivian.com">
               <input type="hidden" name="_next" value="http://orderandbliss.com/thanks" />
               <div class="webform-field-row">
                 <label class="webform-field-label" for="name">Name</label>
@@ -138,38 +171,5 @@
       </footer>
       </div>
   <div class="footer-bar"></div>
-      <script src="https://use.fontawesome.com/4cbe038091.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.0.0/turbolinks.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.slim.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.1/jquery.validate.min.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function() {
-
-      var firstInput = $('input:text:visible:first');
-      var serviceType = document.URL.split('#')[1];
-      var browser = $('html, body');
-
-      var serviceParamExists = function() {
-        return serviceType !== null;
-      }
-
-      var checkServiceBox = function() {
-        var serviceCheckbox = $('[data-service="' + String(serviceType) + '"]');
-        if (serviceCheckbox.length) {
-          serviceCheckbox.prop('checked', true);
-          browser.scrollTop(450);
-        }
-      }
-
-      firstInput.focus();
-
-      if (serviceParamExists) {
-        checkServiceBox();
-      }
-
-      $('.webform form').validate();
-
-    });
-  </script>
-</body>
+      </body>
 </html>
