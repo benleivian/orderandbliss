@@ -30,10 +30,10 @@
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
   ga('create', 'UA-2569379-8', 'auto');
-  ga('send', 'pageview');
-
+  $(document).on('turbolinks:load', function() {
+    ga('send', 'pageview', window.location.pathname);
+  });
 </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.0.0/turbolinks.min.js"></script>
       <script type="text/javascript">
@@ -67,7 +67,6 @@
   </script>
 </head>
 <body>
-  <script>ga('push', '_trackPageview');</script>
   <div class="app">
     <header class="site-header">
       <div class="container">
