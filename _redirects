@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+http://orderandbliss.netlify.com/* http://orderandbliss.com/:splat 301!
